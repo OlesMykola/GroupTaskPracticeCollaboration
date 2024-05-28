@@ -1,4 +1,4 @@
-package WeeklyTask.week1.Zina;
+package WeeklyTask.Zina.Week1;
 
 public class FINRA {
 
