@@ -1,6 +1,6 @@
-package Daria_week1;
+package Daria.week1;
 
-public class TestCase3 {
+public class DivisionWithOperator {
     public static void main(String[] args) {
 
         System.out.println(divideTwoNumbers(181, 6));

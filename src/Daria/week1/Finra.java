@@ -2,7 +2,7 @@ package Daria_week1;
 
 import java.util.Scanner;
 
-public class TestCase2 {
+public class Finra {
     public static void main(String[] args) {
         int num;
 

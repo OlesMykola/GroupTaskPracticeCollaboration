@@ -2,7 +2,7 @@ package Daria_week1;
 
 import java.util.Scanner;
 
-public class TestCase1 {
+public class OddEven {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
