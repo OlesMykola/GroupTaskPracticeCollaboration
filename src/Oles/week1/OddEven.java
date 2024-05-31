@@ -1,4 +1,4 @@
-package WeeklyTask.week1;
+package Oles.week1;
 
 public class OddEven {
 
