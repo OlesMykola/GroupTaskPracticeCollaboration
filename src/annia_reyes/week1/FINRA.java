@@ -1,4 +1,4 @@
-package ar_weekly_tasks.week1;
+package annia_reyes.week1;
 
 public class FINRA {
     public static void main(String[] args) {
