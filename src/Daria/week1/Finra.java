@@ -1,4 +1,4 @@
-package Daria_week1;
+package Daria.week1;
 
 import java.util.Scanner;
 
