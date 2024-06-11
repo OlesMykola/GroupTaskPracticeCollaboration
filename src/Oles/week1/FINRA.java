@@ -1,4 +1,4 @@
-package WeeklyTask.week1;
+package Oles.week1;
 
 public class FINRA {
         public static void main(String[] args) {

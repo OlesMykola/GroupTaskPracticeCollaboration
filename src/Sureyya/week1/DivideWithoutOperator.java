@@ -1,6 +1,6 @@
 package Sureyya.week1;
 
-public class divisionWithoutOperator {
+public class DivideWithoutOperator {
     public static void main(String[] args) {
         int dividend = 1000, divisor = 10 ,HowManyTimes = 0;
 
@@ -15,5 +15,4 @@ public class divisionWithoutOperator {
         }
         System.out.println( HowManyTimes);
     }
-
 }

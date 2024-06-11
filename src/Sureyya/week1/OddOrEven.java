@@ -1,6 +1,6 @@
 package Sureyya.week1;
 
-public class oodOrEven {
+public class OddOrEven {
     public static void main(String[] args) {
 
         int num = 65;
