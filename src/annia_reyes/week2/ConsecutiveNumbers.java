@@ -6,5 +6,38 @@ package annia_reyes.week2;
 public class ConsecutiveNumbers {
     public static void main(String[] args) {
 
+        int numbers = 60;
+        String by2 = "Codility";
+        String by3 = "Test";
+        String by5 = "Coders";
+
+
+        for (int i = 1; i <= numbers; i++) {
+            boolean isBy2 = i % 2 == 0;
+            boolean isBy3 = i % 3 == 0;
+            boolean isBy5 = i % 5 == 0;
+
+            if (isBy2 || isBy3 || isBy5) {
+
+                String output = "";
+
+                if (isBy2) {
+                    output += by2;
+                }
+                if (isBy3) {
+                    output += by3;
+                }
+                if (isBy5) {
+                    output += by5;
+                }
+                System.out.println(output);
+            } else {
+                System.out.println(i);
+            }
+
+
+        }
+
+
     }
 }

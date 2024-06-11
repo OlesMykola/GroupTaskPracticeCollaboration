@@ -6,8 +6,8 @@ public class SwapNumbers {
 
     public static void main(String[] args) {
 
-        int number1 = 62;
-        int number2 = 80;
+        int number1 = 25;
+        int number2 = 15;
         System.out.println("Before swapping number1: " + number1);
         System.out.println("Before swapping number2: " + number2);
 
