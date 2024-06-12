@@ -22,11 +22,11 @@ public class Numbers_DivisibleBy_3_5_15 {
 
         for (int i = 1; i <= 100; i++) {
 
-            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
+            if (i % 15 == 0 ) {
                 divisibleBy15 += i + " ";
-            } else if (i % 5 == 0 && !(i % 15 == 0)) {
+            } else if (i % 5 == 0 ) {
                 divisibleBy5 += i + " ";
-            } else if (i % 3 == 0 && !(i % 15 == 0)) {
+            } else if (i % 3 == 0 ) {
                 divisibleBy3 += i + " ";
             }
 
