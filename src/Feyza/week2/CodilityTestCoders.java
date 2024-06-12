@@ -22,9 +22,9 @@ public class CodilityTestCoders {
                 System.out.println(i);
             }
 
-
         }
     }
+
 
 
 

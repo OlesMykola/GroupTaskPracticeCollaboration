@@ -32,8 +32,6 @@ public class DivisibleBy3515 {
 
             }
 
-
-
         }
         System.out.println("divisibleBy3 = " + divisibleBy3);
         System.out.println("divisibleBy5 = " + divisibleBy5);
