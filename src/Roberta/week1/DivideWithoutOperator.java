@@ -26,7 +26,7 @@ public class DivideWithoutOperator {
         int count = 0;
         String result = num1 + " divided by " + num2 + " is equal to ";
 
-        while(num1 >= num2){
+        while(num1 >= num2){        // 10, 2
             count++;
             num1 -= num2;
         }
