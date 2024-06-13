@@ -17,4 +17,5 @@ public class SwapNumbers {
         System.out.println("num2 = " + num2);
 
     }
+
 }
