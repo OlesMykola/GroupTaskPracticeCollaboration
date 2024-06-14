@@ -1,6 +1,6 @@
 package ihor.week3;
 
-public class PrimeNumber { //Work in progress!!!
+public class PrimeNumber {
     public static void main(String[] args) {
 
         System.out.println("isPrime(3) = " + isPrime(3));
