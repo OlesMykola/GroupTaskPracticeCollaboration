@@ -6,16 +6,20 @@ public class ReverseNegativeNumber {
     //input: -35  output: -53
 
     public static void main(String[] args) {
-        System.out.println(reverseDigits(12345));
-        System.out.println(reverseDigits(45));
-        System.out.println(reverseDigits(89));
-        System.out.println(reverseDigits(89896582));
+        System.out.println(reverseDigits(-12345));
+        System.out.println(reverseDigits(-45));
+        System.out.println(reverseDigits(-89));
+        System.out.println(reverseDigits(-89896582));
     }
 
 
     // I had to search for this one. I really don't get it much
 
     public static int reverseDigits(int number) {
+        boolean isNegative = number < 0;
+        if (isNegative){
+            number = - number; // converting to positive
+        }
 
         int reversed = 0;
         while (number > 0) {
@@ -23,7 +27,7 @@ public class ReverseNegativeNumber {
             reversed = reversed * 10 + digit;
             number /= 10;
         }
-        return reversed;
+        return isNegative? -reversed: reversed;
 
     }
 }
