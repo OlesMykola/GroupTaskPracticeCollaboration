@@ -3,7 +3,7 @@ package ihor.week3;
 public class ReverseNegativeNumber {
     public static void main(String[] args) {
 
-        System.out.println("reverseNegative(25) = " + reverseNegative(-25));
+        System.out.println(reverseNegative(-25));
 
     }
 
