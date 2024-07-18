@@ -8,7 +8,7 @@ public class PrimeNumbers {
     public static void main(String[] args) {
 
 
-        // if number is divisible by 1 and by the number itself isPrime is true: (they must have two positive divisors). Will start from 2 becuase 0 and 1 are not prime numbers
+        // if number is greater than 1 and it is divisible by 1 and by the number itself isPrime is true: (they must have two positive divisors).
 
 
         System.out.println(isPrime(60));
