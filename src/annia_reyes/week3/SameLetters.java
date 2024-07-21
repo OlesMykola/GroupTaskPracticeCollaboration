@@ -19,6 +19,8 @@ public class SameLetters {
         System.out.println(same2("dcsss" , "dcsss"));
         System.out.println(same2("abc" , "cba"));
 
+        //
+
     }
 
     public static boolean same(String word1, String word2) {
