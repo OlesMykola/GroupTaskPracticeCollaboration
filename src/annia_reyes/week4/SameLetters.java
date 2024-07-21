@@ -1,4 +1,4 @@
-package annia_reyes.week3;
+package annia_reyes.week4;
 //String -- Same letters
 //Write a return method that check if a string is build out of the
 //same letters as another string.
