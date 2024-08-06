@@ -7,6 +7,8 @@ import java.util.Collections;
 /*
 Question1: Array - Find Minimum
 Write a method that can find the maximum number from an int Array
+
+
  */
 public class Array_FindMaximum {
     public static void main(String[] args) {
